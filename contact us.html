@@ -29,39 +29,38 @@
 
        <form action="/diamondheartmentorshipalliance@gmail.com">
           
-         <label for="male">Male</label>
-         <input type="radio" id="male" name="gender" value="male">
-         <br>
+        
        
-         <label for="female">Female</label>
-         <input  type="radio" id="female" name="gender" value="female">
-          <br>
-          <br>
-        <label for="fname">First Name:</label>
-         <input type="text" id="fname"
-       name="fname" value="John">
-        <br>
-        <br>
-        <label for="lname">Last Name:</label>
-        <input type="text" id="inlame"
-       name="lname" value="Peter">
-       <br>
-       <br>
+        
+         
+         
+         First name: <input type = "text" name = "first_name" />
+         <br>
+         Last name: <input type = "text" name = "last_name" />
+         <br>
+         Email: <input type = "text" email = "Email" />
+           <br>
+           <label for="phone">Phone Number:</label>
+           <input type="tel" id="phone" 
+           name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+           <br>
+           <br>
+       
+           <input type = "file" name = "fileupload" accept = "image/*" />
+            <br>
 
-       <label for="email">Email:</label>
-        <input type="text" id="email"
-        name="email" value="sample@">
-        <br>
-        <br>
+       
+        
+         <br>
+       <p>Please select your gender:</p>
+        
+         <select name = "dropdown">
+            <option value = "Male" selected>Male</option>
+            <option value = "Female">Female</option>
+         </select>
 
-         <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" 
-        name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
-       <br>
-       <br>
-
-
-      
+         <br>
+         <br>
         <button type="submit"form="nameform"
         value="submit">submit</button>
         </form>
